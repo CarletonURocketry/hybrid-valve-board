@@ -1,0 +1,6 @@
+*.lck
+*.pdf
+hybrid-valve-board.step
+hybrid-valve-board-backups/
+*_autosave*
+\#auto_saved_files\#

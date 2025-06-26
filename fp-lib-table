@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "TerminalBlock")(type "KiCad")(uri "${KIPRJMOD}/LIB_1751248/KiCad")(options "")(descr ""))
+  (lib (name "MiniFitJR")(type "KiCad")(uri "${KIPRJMOD}/LIB_172648-0102/KiCad")(options "")(descr ""))
+  (lib (name "hybrid-valve-board")(type "KiCad")(uri "${KIPRJMOD}/logos")(options "")(descr ""))
+)
