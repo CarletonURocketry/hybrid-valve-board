@@ -1,4 +1,4 @@
-23590798976638452
+23592549950826096
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96369,14 +96369,21 @@ Varistor VF
 2
 2
 hybrid-valve-board
-fed-logo
+fed-logo-20mm
 
 
 0
 0
 0
 hybrid-valve-board
-inspace-logo
+fed-logo-40mm
+
+
+0
+0
+0
+hybrid-valve-board
+inspace-logo-20mm
 
 
 0
