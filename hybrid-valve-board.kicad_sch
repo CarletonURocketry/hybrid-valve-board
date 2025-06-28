@@ -4671,7 +4671,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/fast_recovery/rfn10ns4s.pdf"
 			(at 209.55 43.18 0)
 			(effects
 				(font
@@ -4681,6 +4681,15 @@
 			)
 		)
 		(property "Description" "Diode, anode on pins 2 and 3"
+			(at 209.55 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RFN10NS4STL"
 			(at 209.55 43.18 0)
 			(effects
 				(font
@@ -5003,6 +5012,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "~"
+			(at 132.08 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b5da10fe-f5f5-4423-b58a-d6dc7ec1dc90")
 		)
@@ -5141,6 +5159,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 158.75 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "~"
 			(at 158.75 184.15 0)
 			(effects
 				(font
@@ -5293,6 +5320,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "172648-0102"
+			(at 259.08 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "69015e6e-6d25-4a2f-be8b-65cec9e4753d")
 		)
@@ -5353,6 +5389,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 68.58 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "172648-0102"
 			(at 68.58 186.69 0)
 			(effects
 				(font
@@ -5423,6 +5468,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 149.86 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "~"
 			(at 149.86 184.15 0)
 			(effects
 				(font
@@ -5545,7 +5599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/fast_recovery/rfn10ns4s.pdf"
 			(at 234.95 43.18 0)
 			(effects
 				(font
@@ -5555,6 +5609,15 @@
 			)
 		)
 		(property "Description" "Diode, anode on pins 2 and 3"
+			(at 234.95 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RFN10NS4STL"
 			(at 234.95 43.18 0)
 			(effects
 				(font
@@ -6211,6 +6274,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 209.55 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "172648-0102"
 			(at 209.55 34.29 0)
 			(effects
 				(font
@@ -7148,6 +7220,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 140.97 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "~"
 			(at 140.97 184.15 0)
 			(effects
 				(font
@@ -8334,7 +8415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.ca/manufacturer/rohm-semiconductor/"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73B.pdf"
 			(at 264.16 82.55 0)
 			(effects
 				(font
@@ -8421,6 +8502,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 43.18 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "172648-0102"
 			(at 43.18 105.41 0)
 			(effects
 				(font
@@ -8568,6 +8658,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 234.95 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "172648-0102"
 			(at 234.95 34.29 0)
 			(effects
 				(font
@@ -8975,7 +9074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/fast_recovery/rfn10ns4s.pdf"
 			(at 259.08 41.91 0)
 			(effects
 				(font
@@ -8985,6 +9084,15 @@
 			)
 		)
 		(property "Description" "Diode, anode on pins 2 and 3"
+			(at 259.08 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RFN10NS4STL"
 			(at 259.08 41.91 0)
 			(effects
 				(font
@@ -9560,6 +9668,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 95.25 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "172648-0102"
 			(at 95.25 186.69 0)
 			(effects
 				(font
@@ -10208,6 +10325,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "172648-0102"
+			(at 52.07 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "32429a64-e249-4d6c-bda9-30eab52ccd2d")
 		)
@@ -10472,6 +10598,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "172648-0102"
+			(at 43.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "71e972a6-9713-4793-932e-c50583c9d59d")
 		)
@@ -10615,6 +10750,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 39.37 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "172648-0102"
 			(at 39.37 186.69 0)
 			(effects
 				(font
