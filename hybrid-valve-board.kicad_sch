@@ -6060,7 +6060,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RF201LAM4STR"
+		(property "MPN" "RBR3LAM60BTR"
 			(at 102.87 182.88 0)
 			(effects
 				(font
@@ -6735,7 +6735,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RF201LAM4STR"
+		(property "MPN" "RBR3LAM60BTR"
 			(at 76.2 182.88 0)
 			(effects
 				(font
@@ -6898,7 +6898,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RF201LAM4STR"
+		(property "MPN" "RBR3LAM60BTR"
 			(at 46.99 182.88 0)
 			(effects
 				(font
