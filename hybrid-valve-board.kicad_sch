@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Hybrid Valve Board")
-		(date "2025-06-13")
-		(rev "A")
+		(date "2025-07-11")
+		(rev "B")
 		(company "Carleton University InSpace")
 		(comment 1 "Matteo Golin")
 	)
@@ -2911,22 +2911,34 @@
 		(uuid "309626f1-a846-41a9-b727-7bd5569d5d3e")
 	)
 	(junction
-		(at 260.35 127)
+		(at 193.04 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5498756c-0a9f-4c09-aadb-d72c5ddb6399")
+		(uuid "356c9678-47de-45ab-8bab-cf0dc2e69033")
+	)
+	(junction
+		(at 201.93 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48b3c4f6-e9c7-4250-b64a-905810889baa")
+	)
+	(junction
+		(at 260.35 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f86c4d0-b711-401f-8eaf-8e12c975681d")
+	)
+	(junction
+		(at 220.98 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66427d12-f331-4a37-951e-cc6774d431a3")
 	)
 	(junction
 		(at 31.75 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69a80150-e82a-46a8-bc8b-3729392ccb9d")
-	)
-	(junction
-		(at 269.24 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6d9dd0e6-ea3b-491f-a44e-2eb35b6a093e")
 	)
 	(junction
 		(at 143.51 185.42)
@@ -2947,16 +2959,16 @@
 		(uuid "808e3578-c661-4439-8002-36e9473c0c16")
 	)
 	(junction
-		(at 226.06 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "83439d6a-8b27-4c52-a5ef-9f8b2ae0ad0b")
-	)
-	(junction
 		(at 204.47 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e17993d-2b72-4f65-a555-a21f2394d70d")
+	)
+	(junction
+		(at 251.46 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e597e92-0fc5-4c6f-bf2e-4a81cb948cb0")
 	)
 	(junction
 		(at 229.87 45.72)
@@ -2969,12 +2981,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c3d50f39-c1b2-436d-8051-c926beb37133")
-	)
-	(junction
-		(at 234.95 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c932f30e-1be0-4481-b004-a00757e1182c")
 	)
 	(junction
 		(at 254 41.91)
@@ -2995,16 +3001,16 @@
 		(uuid "d786c5fb-ad75-46b3-b2f5-dd995f712df7")
 	)
 	(junction
+		(at 231.14 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8db2fc5-5b4a-4210-85db-06742e14b46a")
+	)
+	(junction
 		(at 217.17 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5e18b5c-55df-4659-9893-31728ec80a44")
-	)
-	(junction
-		(at 187.96 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eb7c0387-cd7e-4f61-89c8-9649796ab9c8")
 	)
 	(junction
 		(at 43.18 38.1)
@@ -3017,12 +3023,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f3c5c586-cfe9-479a-a8c1-74dfa3762db4")
-	)
-	(junction
-		(at 198.12 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f78ad902-c475-4e3d-ae99-3d33020fa7c3")
 	)
 	(junction
 		(at 96.52 158.75)
@@ -3090,7 +3090,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 135.89) (xy 198.12 135.89)
+			(xy 201.93 138.43) (xy 193.04 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3170,6 +3170,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 130.81) (xy 259.08 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22392770-4e40-4f17-bdcf-582abca51d69")
+	)
+	(wire
+		(pts
 			(xy 29.21 104.14) (xy 31.75 104.14)
 		)
 		(stroke
@@ -3180,7 +3190,17 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 118.11) (xy 234.95 121.92)
+			(xy 200.66 130.81) (xy 201.93 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2792b323-f224-4a5a-8c64-7412f40adb98")
+	)
+	(wire
+		(pts
+			(xy 220.98 121.92) (xy 220.98 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3230,7 +3250,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 134.62) (xy 269.24 134.62)
+			(xy 260.35 138.43) (xy 251.46 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3277,16 +3297,6 @@
 			(type default)
 		)
 		(uuid "3a763085-dfd0-446b-97f3-a2590fb883de")
-	)
-	(wire
-		(pts
-			(xy 259.08 127) (xy 260.35 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c559606-fbc4-4b20-a98b-2959dc7cd7af")
 	)
 	(wire
 		(pts
@@ -3340,23 +3350,13 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 134.62) (xy 269.24 132.08)
+			(xy 251.46 138.43) (xy 251.46 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4213fcd5-8b02-4922-8879-fb4833eff65c")
-	)
-	(wire
-		(pts
-			(xy 226.06 129.54) (xy 226.06 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42656810-4980-4632-ab19-c1766e82c091")
 	)
 	(wire
 		(pts
@@ -3377,6 +3377,16 @@
 			(type default)
 		)
 		(uuid "46a17451-d238-40ae-9ed0-1c1666396079")
+	)
+	(wire
+		(pts
+			(xy 220.98 121.92) (xy 231.14 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "475476c6-b130-485d-ad9c-fa32f8cacbe8")
 	)
 	(wire
 		(pts
@@ -3470,13 +3480,13 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 128.27) (xy 190.5 128.27)
+			(xy 201.93 121.92) (xy 193.04 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5d1786fd-b438-4520-8641-a4de33d020ff")
+		(uuid "5c24116f-4a15-4a8e-ab66-d9148d44487d")
 	)
 	(wire
 		(pts
@@ -3490,7 +3500,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 134.62) (xy 234.95 134.62)
+			(xy 229.87 138.43) (xy 220.98 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3510,7 +3520,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 135.89) (xy 198.12 133.35)
+			(xy 193.04 138.43) (xy 193.04 135.89)
 		)
 		(stroke
 			(width 0)
@@ -3520,23 +3530,13 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 130.81) (xy 187.96 130.81)
+			(xy 201.93 129.54) (xy 201.93 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6cc1a197-eb36-4c65-a53d-1e9ba540312b")
-	)
-	(wire
-		(pts
-			(xy 260.35 125.73) (xy 260.35 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f3760ef-376f-4351-8970-4a1f260a8863")
+		(uuid "7599a8a0-b83d-4260-b7d5-e014d3c3d52b")
 	)
 	(wire
 		(pts
@@ -3680,16 +3680,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 130.81) (xy 187.96 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a6e8fc5-676b-456f-8094-8eb5d95632fb")
-	)
-	(wire
-		(pts
 			(xy 29.21 86.36) (xy 31.75 86.36)
 		)
 		(stroke
@@ -3720,7 +3710,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 119.38) (xy 198.12 123.19)
+			(xy 193.04 121.92) (xy 193.04 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3730,13 +3720,23 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 127) (xy 227.33 127)
+			(xy 201.93 133.35) (xy 214.63 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9c018b8e-02c1-442b-aca7-692f5c7e621e")
+		(uuid "9aec0ffd-e2d8-4aed-93bc-8c4d7d9fc86f")
+	)
+	(wire
+		(pts
+			(xy 251.46 121.92) (xy 251.46 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b01480f-f2e8-42ad-b48e-436a082073bc")
 	)
 	(wire
 		(pts
@@ -3750,7 +3750,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 134.62) (xy 234.95 132.08)
+			(xy 220.98 138.43) (xy 220.98 135.89)
 		)
 		(stroke
 			(width 0)
@@ -3760,7 +3760,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 125.73) (xy 226.06 127)
+			(xy 231.14 129.54) (xy 231.14 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3780,6 +3780,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 133.35) (xy 201.93 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a07c2400-3c87-42d2-955c-a438135bd5c6")
+	)
+	(wire
+		(pts
 			(xy 38.1 38.1) (xy 43.18 38.1)
 		)
 		(stroke
@@ -3787,16 +3797,6 @@
 			(type default)
 		)
 		(uuid "a1d718ba-17f6-48f2-88d1-a97da07938ff")
-	)
-	(wire
-		(pts
-			(xy 269.24 118.11) (xy 269.24 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5a81272-7ba4-41fb-a14e-e3dc77c7d87f")
 	)
 	(wire
 		(pts
@@ -3880,23 +3880,23 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 127) (xy 187.96 128.27)
+			(xy 228.6 130.81) (xy 231.14 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bc5589d0-1f2c-41b8-a506-6cd6d1dbb0dc")
+		(uuid "bc883656-b471-4b8a-a48f-c77c284f791c")
 	)
 	(wire
 		(pts
-			(xy 269.24 116.84) (xy 269.24 118.11)
+			(xy 260.35 132.08) (xy 260.35 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bf700fcb-0f5e-4c81-859d-a5f08817bb99")
+		(uuid "beb3bf0b-acaf-45f1-8b0d-1bbe98dd07d7")
 	)
 	(wire
 		(pts
@@ -3920,16 +3920,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 118.11) (xy 234.95 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7bdc679-d92c-4a47-86f8-689f91b50a70")
-	)
-	(wire
-		(pts
 			(xy 45.72 104.14) (xy 48.26 104.14)
 		)
 		(stroke
@@ -3937,26 +3927,6 @@
 			(type default)
 		)
 		(uuid "c84850b6-3a5c-483d-b9ab-a8d946873b7d")
-	)
-	(wire
-		(pts
-			(xy 213.36 129.54) (xy 226.06 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c92f7c87-8143-4c31-bdc7-3e117bcd0101")
-	)
-	(wire
-		(pts
-			(xy 260.35 127) (xy 261.62 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb37549a-8494-4e2b-8404-6c5d9ca5e4ba")
 	)
 	(wire
 		(pts
@@ -3980,6 +3950,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 133.35) (xy 243.84 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d24064e6-b5a4-43bf-90f6-d5abd1629137")
+	)
+	(wire
+		(pts
 			(xy 172.72 38.1) (xy 171.45 38.1)
 		)
 		(stroke
@@ -4000,7 +3980,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 129.54) (xy 259.08 127)
+			(xy 260.35 129.54) (xy 260.35 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4030,6 +4010,26 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 133.35) (xy 231.14 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de1ab453-3b07-45e9-8c07-52db5a035071")
+	)
+	(wire
+		(pts
+			(xy 260.35 121.92) (xy 251.46 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de1c25be-9644-4edd-ba6d-8046da01bcf4")
+	)
+	(wire
+		(pts
 			(xy 143.51 185.42) (xy 152.4 185.42)
 		)
 		(stroke
@@ -4050,7 +4050,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 129.54) (xy 259.08 129.54)
+			(xy 273.05 132.08) (xy 260.35 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4097,16 +4097,6 @@
 			(type default)
 		)
 		(uuid "ee90fd32-2c92-4833-a9cd-e009b4bbc851")
-	)
-	(wire
-		(pts
-			(xy 187.96 119.38) (xy 198.12 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efe0244b-6e20-45e2-8758-d1df584a41e3")
 	)
 	(wire
 		(pts
@@ -4158,16 +4148,6 @@
 		)
 		(uuid "fd4b8ca1-72b1-4c3c-a69d-43705b785c21")
 	)
-	(wire
-		(pts
-			(xy 260.35 118.11) (xy 269.24 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd95762d-dfcc-4dd3-a334-ffeb8a9084cc")
-	)
 	(rectangle
 		(start 24.13 74.93)
 		(end 53.34 113.03)
@@ -4181,8 +4161,8 @@
 		(uuid 4739b2e9-d4a3-45b7-b0b3-d79dc738fd23)
 	)
 	(rectangle
-		(start 172.72 107.95)
-		(end 281.94 142.24)
+		(start 185.42 110.49)
+		(end 276.86 144.78)
 		(stroke
 			(width 0)
 			(type default)
@@ -4354,7 +4334,7 @@
 	)
 	(text "Resistors sized\nto handle 60mW"
 		(exclude_from_sim no)
-		(at 220.472 137.668 0)
+		(at 194.31 142.494 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4494,7 +4474,7 @@
 	)
 	(text "Battery power switches"
 		(exclude_from_sim no)
-		(at 229.362 106.172 0)
+		(at 228.092 108.458 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4544,13 +4524,13 @@
 		(uuid "0f8141e4-4953-4d24-ae8a-365b6633f0ec")
 	)
 	(label "XV7_ON_24V"
-		(at 246.38 129.54 0)
+		(at 273.05 132.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "123da09f-64fb-42f8-86c6-6c3608708632")
 	)
@@ -4599,7 +4579,7 @@
 		(uuid "24f8dd1e-dc5c-4332-afbb-e7114fabcfb2")
 	)
 	(label "XV6_PWR"
-		(at 243.84 134.62 180)
+		(at 229.87 138.43 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4642,8 +4622,19 @@
 		)
 		(uuid "430d8d47-1a53-4d5a-8a9b-ba1c7dbad3e6")
 	)
+	(label "XV4_ON_24V"
+		(at 214.63 133.35 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "49bcf260-1f01-4e26-a1ec-f6662aa4af57")
+	)
 	(label "XV7_PWR"
-		(at 278.13 134.62 180)
+		(at 260.35 138.43 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4720,13 +4711,13 @@
 		(uuid "8538050d-e593-401c-8e61-40fd1d053417")
 	)
 	(label "XV6_ON_24V"
-		(at 213.36 129.54 0)
+		(at 243.84 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "989d544a-8c2e-4a56-a2a5-513182679e98")
 	)
@@ -4741,19 +4732,8 @@
 		)
 		(uuid "b57b56a3-1b26-41a9-9d38-f2c733687572")
 	)
-	(label "XV4_ON_24V"
-		(at 175.26 130.81 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bb8f3777-a383-436f-addd-980832ffffe3")
-	)
 	(label "XV4_PWR"
-		(at 207.01 135.89 180)
+		(at 201.93 138.43 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5177,116 +5157,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PMOS_2")
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 195.58 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "12df64de-57ee-4028-9c8e-267533c211de")
-		(property "Reference" "Q1"
-			(at 201.93 126.9999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PMOS"
-			(at 201.93 129.5399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
-			(at 200.66 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/PowerSolutions/product.do?id=FQD5P20TM"
-			(at 195.58 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 195.58 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 195.58 145.415 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 195.58 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 195.58 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "FQD5P20TM "
-			(at 195.58 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2563afa6-489f-4930-ab8c-0dee0f6889f5")
-		)
-		(pin "1"
-			(uuid "a3592f80-b2b1-4a5c-9ad3-e43adc05c86b")
-		)
-		(pin "3"
-			(uuid "2d9ccfa9-24bb-4737-a7b2-c4181351dd2a")
-		)
-		(instances
-			(project "hybrid-valve-board"
-				(path "/3e9d2756-24b9-412e-a472-479231abb2cd"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3VA")
 		(at 45.72 104.14 0)
 		(unit 1)
@@ -5346,6 +5216,115 @@
 			(project ""
 				(path "/3e9d2756-24b9-412e-a472-479231abb2cd"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "PMOS_2")
+		(lib_id "Simulation_SPICE:PMOS")
+		(at 254 130.81 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14396e8e-7e69-47d4-b0e7-eafa7b8538c6")
+		(property "Reference" "Q3"
+			(at 258.064 124.714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PMOS"
+			(at 258.064 127.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+			(at 248.92 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/PowerSolutions/product.do?id=FQD5P20TM"
+			(at 254 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "P-MOSFET transistor, drain/source/gate"
+			(at 254 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "PMOS"
+			(at 254 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 254 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 254 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FQD5P20TM "
+			(at 254 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c1841a4d-deda-4918-b887-e7e6163a3695")
+		)
+		(pin "1"
+			(uuid "d87b9a7c-2923-4e47-b452-eb86154a907a")
+		)
+		(pin "3"
+			(uuid "273006d0-ece4-4516-a0f2-10aaa0bd7a60")
+		)
+		(instances
+			(project "hybrid-valve-board"
+				(path "/3e9d2756-24b9-412e-a472-479231abb2cd"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -6625,7 +6604,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 260.35 121.92 0)
+		(at 260.35 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6634,7 +6613,7 @@
 		(fields_autoplaced yes)
 		(uuid "36cf799a-a2ba-4181-8c7a-d55719942c3f")
 		(property "Reference" "R7"
-			(at 262.89 120.6499 0)
+			(at 262.89 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6643,7 +6622,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 262.89 123.1899 0)
+			(at 262.89 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6652,7 +6631,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 258.572 121.92 90)
+			(at 258.572 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6661,7 +6640,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/doc?20035"
-			(at 260.35 121.92 0)
+			(at 260.35 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6670,7 +6649,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 260.35 121.92 0)
+			(at 260.35 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6679,7 +6658,7 @@
 			)
 		)
 		(property "MPN" "CRCW080510K0FKEA"
-			(at 260.35 121.92 0)
+			(at 260.35 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7234,7 +7213,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 198.12 119.38 0)
+		(at 193.04 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7243,7 +7222,7 @@
 		(fields_autoplaced yes)
 		(uuid "53d56428-e632-407c-ac89-d0f74e09a828")
 		(property "Reference" "#PWR019"
-			(at 198.12 123.19 0)
+			(at 193.04 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7252,7 +7231,7 @@
 			)
 		)
 		(property "Value" "+24VBAT"
-			(at 198.12 114.3 0)
+			(at 193.04 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7260,7 +7239,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 119.38 0)
+			(at 193.04 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7269,7 +7248,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 119.38 0)
+			(at 193.04 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7278,7 +7257,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 198.12 119.38 0)
+			(at 193.04 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7934,116 +7913,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PMOS_2")
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 266.7 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "756fe690-a168-4fe5-acf1-f67eff8fa9ed")
-		(property "Reference" "Q3"
-			(at 273.05 125.7299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PMOS"
-			(at 273.05 128.2699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
-			(at 271.78 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/PowerSolutions/product.do?id=FQD5P20TM"
-			(at 266.7 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 266.7 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 266.7 144.145 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 266.7 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 266.7 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "FQD5P20TM "
-			(at 266.7 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d3ef08aa-db03-4ee6-9217-9e02cf1eaccf")
-		)
-		(pin "1"
-			(uuid "c74c1ad0-9587-4d26-9997-07107116eae3")
-		)
-		(pin "3"
-			(uuid "2c9facdf-5d3f-48eb-afd7-39ca4325fd77")
-		)
-		(instances
-			(project "hybrid-valve-board"
-				(path "/3e9d2756-24b9-412e-a472-479231abb2cd"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 248.92 85.09 0)
 		(unit 1)
@@ -8111,7 +7980,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 269.24 116.84 0)
+		(at 251.46 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8120,7 +7989,7 @@
 		(fields_autoplaced yes)
 		(uuid "77fd5901-25a5-473c-bfd7-723fe2ebb539")
 		(property "Reference" "#PWR029"
-			(at 269.24 120.65 0)
+			(at 251.46 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8129,7 +7998,7 @@
 			)
 		)
 		(property "Value" "+24VBAT"
-			(at 269.24 111.76 0)
+			(at 251.46 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8137,7 +8006,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 269.24 116.84 0)
+			(at 251.46 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8146,7 +8015,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 116.84 0)
+			(at 251.46 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8155,7 +8024,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 269.24 116.84 0)
+			(at 251.46 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8526,116 +8395,6 @@
 			(project "hybrid-valve-board"
 				(path "/3e9d2756-24b9-412e-a472-479231abb2cd"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "PMOS_2")
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 232.41 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "86a1bd75-01bb-4682-bc5d-2593140706f6")
-		(property "Reference" "Q2"
-			(at 238.76 125.7299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PMOS"
-			(at 238.76 128.2699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
-			(at 237.49 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/PowerSolutions/product.do?id=FQD5P20TM"
-			(at 232.41 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 232.41 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 232.41 144.145 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 232.41 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 232.41 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "FQD5P20TM "
-			(at 232.41 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3c3371cd-949b-4caa-ad27-4b1307da0523")
-		)
-		(pin "1"
-			(uuid "4e00556b-074a-4869-9b28-8e68f6d9529b")
-		)
-		(pin "3"
-			(uuid "071430bb-bfe3-4466-9a67-d9efe9de35b4")
-		)
-		(instances
-			(project "hybrid-valve-board"
-				(path "/3e9d2756-24b9-412e-a472-479231abb2cd"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -9818,6 +9577,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 201.93 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be575f83-e01a-4551-8e85-973569a4f06e")
+		(property "Reference" "R5"
+			(at 204.47 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 204.47 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 200.152 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/doc?20035"
+			(at 201.93 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 201.93 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW080510K0FKEA"
+			(at 201.93 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50f7390d-f040-4e55-8806-a65046dadc77")
+		)
+		(pin "2"
+			(uuid "1bd76503-cd09-4ccc-bf92-782e7b2225fb")
+		)
+		(instances
+			(project "hybrid-valve-board"
+				(path "/3e9d2756-24b9-412e-a472-479231abb2cd"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 229.87 46.99 0)
 		(unit 1)
@@ -10098,17 +9936,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 187.96 123.19 0)
+		(lib_name "PMOS_2")
+		(lib_id "Simulation_SPICE:PMOS")
+		(at 195.58 130.81 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cec8087c-d88f-43a3-854e-c92ae40e673d")
-		(property "Reference" "R5"
-			(at 190.5 121.9199 0)
+		(uuid "ca59b88c-11aa-48d3-96a3-0a13432291c4")
+		(property "Reference" "Q1"
+			(at 199.644 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10116,8 +9954,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 190.5 124.4599 0)
+		(property "Value" "PMOS"
+			(at 199.644 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10125,8 +9963,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 186.182 123.19 90)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+			(at 190.5 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10134,8 +9972,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?20035"
-			(at 187.96 123.19 0)
+		(property "Datasheet" "https://www.onsemi.com/PowerSolutions/product.do?id=FQD5P20TM"
+			(at 195.58 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10143,8 +9981,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 187.96 123.19 0)
+		(property "Description" "P-MOSFET transistor, drain/source/gate"
+			(at 195.58 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10152,8 +9990,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CRCW080510K0FKEA"
-			(at 187.96 123.19 0)
+		(property "Sim.Device" "PMOS"
+			(at 195.58 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10161,16 +9999,46 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "dc2c4f7c-2be9-4d95-a986-764e6c2a571a")
+		(property "Sim.Type" "VDMOS"
+			(at 195.58 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 195.58 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FQD5P20TM "
+			(at 195.58 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "fc31ac5d-1f2b-4b1a-bb43-48125a3703b6")
+			(uuid "f8446b3d-3d4c-44ab-9171-555dad6bca1c")
+		)
+		(pin "1"
+			(uuid "61897071-bf39-4328-9dc7-e5eda95882fd")
+		)
+		(pin "3"
+			(uuid "d7115556-16ee-448b-a7a1-7135df7ef855")
 		)
 		(instances
-			(project ""
+			(project "hybrid-valve-board"
 				(path "/3e9d2756-24b9-412e-a472-479231abb2cd"
-					(reference "R5")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -10452,7 +10320,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 234.95 118.11 0)
+		(at 220.98 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10461,7 +10329,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd00af98-41bd-457e-81bf-19be965b35f6")
 		(property "Reference" "#PWR023"
-			(at 234.95 121.92 0)
+			(at 220.98 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10470,7 +10338,7 @@
 			)
 		)
 		(property "Value" "+24VBAT"
-			(at 234.95 113.03 0)
+			(at 220.98 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10478,7 +10346,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 118.11 0)
+			(at 220.98 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10487,7 +10355,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 118.11 0)
+			(at 220.98 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10496,7 +10364,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 234.95 118.11 0)
+			(at 220.98 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10747,6 +10615,115 @@
 		)
 	)
 	(symbol
+		(lib_name "PMOS_2")
+		(lib_id "Simulation_SPICE:PMOS")
+		(at 223.52 130.81 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e60c74dd-2981-4e8f-a0db-c5f6c741d38d")
+		(property "Reference" "Q2"
+			(at 227.33 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PMOS"
+			(at 227.33 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+			(at 218.44 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/PowerSolutions/product.do?id=FQD5P20TM"
+			(at 223.52 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "P-MOSFET transistor, drain/source/gate"
+			(at 223.52 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "PMOS"
+			(at 223.52 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 223.52 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 223.52 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FQD5P20TM "
+			(at 223.52 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "615e0eaf-091e-4519-8ec2-da5c7c9c744a")
+		)
+		(pin "1"
+			(uuid "35d5a6f6-bb27-4150-8e65-8fa73a66d3ae")
+		)
+		(pin "3"
+			(uuid "75dd5cc2-0653-4232-ab44-db23e0e9d3cc")
+		)
+		(instances
+			(project "hybrid-valve-board"
+				(path "/3e9d2756-24b9-412e-a472-479231abb2cd"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 55.88 153.67 0)
 		(unit 1)
@@ -10814,7 +10791,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 226.06 121.92 0)
+		(at 231.14 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10823,7 +10800,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea5bc884-e30a-44a9-93fb-074d3296713f")
 		(property "Reference" "R6"
-			(at 228.6 120.6499 0)
+			(at 233.68 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10832,7 +10809,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 228.6 123.1899 0)
+			(at 233.68 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10841,7 +10818,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 224.282 121.92 90)
+			(at 229.362 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10850,7 +10827,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/doc?20035"
-			(at 226.06 121.92 0)
+			(at 231.14 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10859,7 +10836,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 226.06 121.92 0)
+			(at 231.14 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10868,7 +10845,7 @@
 			)
 		)
 		(property "MPN" "CRCW080510K0FKEA"
-			(at 226.06 121.92 0)
+			(at 231.14 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
